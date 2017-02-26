@@ -1,0 +1,126 @@
+
+<!doctype html>
+<html lang="ru-RU">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<meta http-equiv="Cache-Control" content ="Public">
+
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/custom.css" />
+   <noscript>
+    <link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+  </noscript>
+   <title>CrazyBearGuilty Portfolio</title>
+   <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+
+ <link href="style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
+<script src="js/snap.svg-min.js"></script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+<script type="text/javascript" src="migrate.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
+<link rel="stylesheet" type="text/css" href="gallery/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="gallery/css/style.css" />
+
+<body>
+
+<script type="text/javascript">
+ // Please don't use this code on your site
+  var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-7243260-2']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+<div class="modalinformwebsite"></div>
+<div class="conteinerprofile">
+        <div class="container" style="margin-top:20vh;">
+
+
+			<section id="dg-container" class="dg-container">
+				<div class="dg-wrapper">
+          <a id="onemodal" name="ones"><img src="gallery/images/001-MacBook-Silver.png"width="100%" alt="image03"> </a>
+          <a id="danmodal"><img src="gallery/images/002-MacBook-Gold.png"  width="100%"alt="image01"> </a>
+          <a id="speedxmodal"><img src="gallery/images/003-MacBook-Space-Gray.png"width="100%" alt="image02"> </a>
+
+           <a id="gpmodal"><img src="gallery/images/003-MacBook-Space-Gray222.png"width="100%" alt="image02"> </a>
+          <a id="tsmodal"><img src="gallery/images/macboog-retina-big.png"width="100%" alt="image02"> </a>
+          <a id="boxmodal"><img src="gallery/images/Mackbook-Air-Mock-Up.png"width="100%" alt="image02"> </a>
+
+				</div>
+				<nav>
+					<span class="dg-prev"><i class="fa fa-angle-left"  style ="font-size:35px;" aria-hidden="true"></i></span>
+					<span class="dg-next"><i class="fa fa-angle-right"  style ="font-size:35px;" aria-hidden="true"></i></span>
+				</nav>
+			</section>
+        </div></div>
+
+ 		<script type="text/javascript" src="gallery/js/jquery.gallery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery();
+			});
+		</script>
+    <script>
+     $('#onemodal').on('click', function() {
+      $('.modalinformwebsite').css('display', 'block');
+$('.modalinformwebsite').animate({opacity: '1'},800);
+$('.modalinformwebsite').load('html_img/onepost.html');
+
+    });
+    $('#danmodal').on('click', function() {
+     $('.modalinformwebsite').css('display', 'block');
+ $('.modalinformwebsite').animate({opacity: '1'},800);
+ $('.modalinformwebsite').load('html_img/danpost.html');
+
+   });
+   $('#boxmodal').on('click', function() {
+    $('.modalinformwebsite').css('display', 'block');
+ $('.modalinformwebsite').animate({opacity: '1'},800);
+ $('.modalinformwebsite').load('html_img/boxpost.html');
+
+  });
+  $('#tsmodal').on('click', function() {
+   $('.modalinformwebsite').css('display', 'block');
+$('.modalinformwebsite').animate({opacity: '1'},800);
+$('.modalinformwebsite').load('html_img/tspost.html');
+
+ });
+ $('#speedxmodal').on('click', function() {
+  $('.modalinformwebsite').css('display', 'block');
+$('.modalinformwebsite').animate({opacity: '1'},800);
+$('.modalinformwebsite').load('html_img/speedxpost.html');
+
+});
+$('#gpmodal').on('click', function() {
+ $('.modalinformwebsite').css('display', 'block');
+$('.modalinformwebsite').animate({opacity: '1'},800);
+$('.modalinformwebsite').load('html_img/gppost.html');
+
+});
+function modalclosedinformside() {
+
+$('.modalinformwebsite').animate({opacity: '0'},800);
+setTimeout(function(){$('.modalinformwebsite').css('display', 'none')},800);
+
+ $('.modalinformwebsite').html();
+}
+
+    </script>
+ 
+   </body>
+   </html>
